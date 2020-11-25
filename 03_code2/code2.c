@@ -1,7 +1,7 @@
 
 int printTriangle(int size) {
   //start with starCount being 0
-  int startCount = 0; 
+  int starCount = 0; 
   //count from 0 (inclusive) to size (exclusive), for each number i that you count
   for (int i = 0; i <= 4; i++){     
      //count from 0 (inclusive) to i (inclusive), for each number j that you count
@@ -14,7 +14,7 @@ int printTriangle(int size) {
      //when you finish counting on j, 
     
      //print a newline ("\n")
-     print ("\n");
+     printf("\n");
      }
   //when you finish counting on i, 
   
