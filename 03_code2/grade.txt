@@ -1,0 +1,20 @@
+Grading at Wed Nov 25 05:21:59 UTC 2020
+Checking code2.c for legal syntax
+temp.c: In function ‘printTriangle’:
+temp.c:14:2: error: ‘starCount’ undeclared (first use in this function)
+  starCount++;
+  ^
+temp.c:14:2: note: each undeclared identifier is reported only once for each function it appears in
+temp.c:19:6: error: implicit declaration of function ‘print’ [-Werror=implicit-function-declaration]
+      print ("\n");
+      ^
+temp.c:6:7: error: unused variable ‘startCount’ [-Werror=unused-variable]
+   int startCount = 0; 
+       ^
+temp.c:26:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+The code did not have legal syntax!
+
+Overall Grade: F
